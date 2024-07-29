@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const UPIRedirect = () => {
   useEffect(() => {
     // UPI payment link
-    const upiLink = "upi://pay?pa=OGCS971.07@cmsidfc&pn=Applicant&am=199";
+    const upiLink = "upi://pay?pa=OGCS971.07@cmsidfc&pn=Applicant&am=1";
     
     // Redirect to the UPI link
     window.location.href = upiLink;
